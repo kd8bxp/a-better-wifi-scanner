@@ -16,6 +16,11 @@ https://github.com/RoboUlbricht/arduinoslovakia/blob/master/esp8266/wifi_scan_ol
 
 ## Installation
 
+## Libraries
+
+Uses ESP8266 and ESP32 Oled Driver for SSD1306 display (version 4.0.0 by Daniel Eichhorn, Fabrice Weinberg).  
+Because the Arduino IDE has been getting pretty bad handling libraries, I've included the libraries used in the src directory of the sketch. These libraries may have been slightly modified to work from the sketch directory, and do not include the examples.  
+
 ## Things To Do
 
 ## Usage

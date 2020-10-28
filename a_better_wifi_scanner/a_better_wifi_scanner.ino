@@ -36,7 +36,7 @@
 
 #include "ESP8266WiFi.h"
 #include <Wire.h>
-#include "SSD1306.h"
+#include "src/esp8266_ssd1306/SSD1306.h"
 
 SSD1306  display(0x3c, 5 /*D1*/, 4 /*D2*/);
 
@@ -159,4 +159,3 @@ const char* getEncryptionType(int thisType) {
       return S_UNKNOWN;
   }
 }
-
